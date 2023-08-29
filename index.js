@@ -22,6 +22,7 @@ app.use(
     ].join(" ");
   })
 );
+app.use(express.static("dist");
 
 let persons = [
   {
